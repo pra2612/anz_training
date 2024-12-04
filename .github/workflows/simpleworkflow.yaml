@@ -3,6 +3,6 @@ on: push
 jobs: 
   my-first-job:
     name: my first job
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-      - run: echo "sum of 3 and 4 is `expr 3 + 4`""
+      - run: npm --version && git --version
